@@ -4,8 +4,8 @@ This repository contains a research modification of
 [WildCamera](https://github.com/ShngJZ/WildCamera), the implementation of
 *Tame a Wild Camera: In-the-Wild Monocular Camera Calibration* (NeurIPS 2023)
 by Shengjie Zhu, Abhinav Kumar, Masa Hu, and Xiaoming Liu.
-The original Apache License 2.0 is retained in `LICENSE`, and the original
-paper and dataset citations are retained in `README.md`.
+The original Apache License 2.0 is retained in `LICENSE`.
+Upstream sources and authors are recorded in this file.
 
 The `geocalib/` package and the GeoCalib-derived camera calibration / LM
 utilities in `tools/geocalib.py` and `tools/lm_optimizer.py` originate from
