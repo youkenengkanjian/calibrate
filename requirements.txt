@@ -1,0 +1,14 @@
+# Install PyTorch, torchvision and a matching MMCV build first; see README.md.
+# This list covers WildCamera training, evaluation, demos and visualization.
+numpy<2
+Pillow
+opencv-python
+timm<1
+tensorboard
+loguru
+einops
+natsort
+h5py
+tabulate
+matplotlib
+tqdm

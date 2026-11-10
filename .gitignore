@@ -1,0 +1,70 @@
+# Datasets and downloaded model weights (keep WildCamera/datasets/ source).
+data/
+model_zoo/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5*
+*.npy
+*.npz
+
+# Generated experiment results and local paper drafts.
+output/
+outputs/
+runs/
+logs/
+wandb/
+tmp/
+/paper_revision/
+*.log
+wget-log*
+events.out.tfevents.*
+
+# Demo downloads are available through asset/download_demo_images.sh.
+/asset/dollyzoom/
+/asset/images-from-github-wt-intrinsic/
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Python environments, caches, and build products.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Editor and operating system files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Local credentials and machine-specific configuration.
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+.agents/
+credentials.json
+*.pem
+*.key

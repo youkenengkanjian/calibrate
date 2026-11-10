@@ -1,0 +1,6 @@
+# Optional dependencies for the bundled GeoCalib / LM utilities.
+# Select CUDA-compatible PyTorch and MMCV builds for your system.
+-r requirements.txt
+torch>=2.0
+torchvision>=0.15
+kornia
